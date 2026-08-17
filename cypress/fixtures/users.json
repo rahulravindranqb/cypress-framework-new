@@ -1,0 +1,29 @@
+{
+  "password": "secret_sauce",
+  "users": [
+    {
+      "username": "standard_user",
+      "expectedResult": "success"
+    },
+    {
+      "username": "locked_out_user",
+      "expectedResult": "failure"
+    },
+    {
+      "username": "problem_user",
+      "expectedResult": "success"
+    },
+    {
+      "username": "performance_glitch_user",
+      "expectedResult": "success"
+    },
+    {
+      "username": "error_user",
+      "expectedResult": "success"
+    },
+    {
+      "username": "visual_user",
+      "expectedResult": "success"
+    }
+  ]
+}
