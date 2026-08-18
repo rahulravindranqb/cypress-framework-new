@@ -2,7 +2,7 @@
   "password": "secret_sauce",
   "users": [
     {
-      "username": "standard_user1",
+      "username": "standard_user",
       "expectedResult": "success"
     },
     {
