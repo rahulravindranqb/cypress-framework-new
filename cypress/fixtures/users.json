@@ -2,11 +2,11 @@
   "password": "secret_sauce",
   "users": [
     {
-      "username": "standard_user",
+      "username": "standard_user1",
       "expectedResult": "success"
     },
     {
-      "username": "locked_out_user1",
+      "username": "locked_out_user",
       "expectedResult": "failure"
     },
     {
