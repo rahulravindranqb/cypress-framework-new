@@ -22,7 +22,7 @@ describe('SauceDemo Login Tests', () => {
         cy.screenshot();
     });
 
-    it('Login with standard user', () => {
+    it('1.Login with standard user', () => {
 
         loginPage.login(
             usersData.users[0].username,
@@ -33,7 +33,7 @@ describe('SauceDemo Login Tests', () => {
 
     });
 
-    it('Login with locked user', () => {
+    it('2.Login with locked user', () => {
 
         loginPage.login(
             usersData.users[1].username,
