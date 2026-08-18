@@ -6,7 +6,7 @@
       "expectedResult": "success"
     },
     {
-      "username": "locked_out_user",
+      "username": "locked_out_user1",
       "expectedResult": "failure"
     },
     {
